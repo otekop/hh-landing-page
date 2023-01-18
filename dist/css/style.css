@@ -1,0 +1,210 @@
+@font-face {
+  font-family: 'Lato';
+  src: url('/resources/fonts/Lato.ttf') format('truetype');
+  /* font-weight: inherit; */
+}
+@font-face {
+  font-family: 'Merriweather';
+  src: url('/resources/fonts/Merriweather.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('/resources/fonts/Helvetica\ Neue.ttf') format('truetype');
+}
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html{
+  display: block;
+}
+body, html{
+  max-width: 100vw;
+  height: 100vh;
+}
+body{
+  font-family: Lato;
+  background-image: url("/resources/img/background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  overflow-x: hidden;
+}
+section{
+  width: 100%;
+  min-width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  position: sticky;
+  z-index: -1;
+}
+a{
+  text-decoration: none;
+}
+body, li{
+  font-family: Merriweather !important;
+  line-height: 1.8;
+}
+#home{
+  clear: both;
+  display: block;
+  position: relative;
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+.intro, .contact{
+  letter-spacing: 6px;
+  line-height: 60px;
+  font-weight: 300;
+}
+.lato{
+  font-family: Lato !important;
+  font-size: 42px;
+}
+#header{
+  position: fixed;
+  color: #ffffff;
+  overflow: hidden;
+  width: 100vw;
+  text-align: center;
+  z-index:1000;
+  background: transparent;
+}
+#header a, #header nav ul li a{
+  color: #ffffff;
+  text-decoration: none;
+  font-family: Lato;
+  font-size: 25px;
+  letter-spacing: 3px;
+  font-weight:bold;
+  height: 90px;
+  line-height: 90px;
+}
+.logo{
+  width: 100px;
+  height: 90px;
+}
+.nav{
+  clear: none;
+  position: absolute;
+  z-index: 100;
+  line-height: 30px;
+  height: 100%;
+  margin: 0;
+  right: 0;
+}
+li{
+  list-style: none;
+}
+.text-center{
+  color: #ffffff;
+}
+.text-center p{
+  font-stretch: extra-condensed;
+}
+#home .intro a{
+  background: transparent;
+  color: #ffffff;
+  border: 1px solid #dedede;
+  text-decoration: none;
+  cursor: pointer;
+} 
+button a{
+  color: #ffffff;
+  text-decoration: none;
+}
+#about{
+  color: #ffffff;
+  background-color: #378d9e;
+}
+#services{
+  max-width: 100vw;
+  height: 170vh;
+}
+.col-md-3 .card{
+  height: 80vh;
+}
+#services, #contact{
+  background: #f0f7f4;
+}
+#services .col-6{
+  width: 25vw;
+}
+/* #services .card {
+  border-width: 1px;
+  border-color: #ededed;
+  border-style: solid;
+  margin-left: 3%;
+  height: 80vh;
+  font-family: Merriweather !important;
+  float: left;
+  position: relative;
+  clear: both;
+} */
+#services .card .card-text{
+  font-family: Merriweather !important;
+    font-weight: 300;
+    line-height: 1.5;
+    font-size: 15px !important;
+    text-align: left;
+}
+.contact{
+  width: 100vw;
+  height: 70vh;
+  margin-left: 0;
+}
+.contact{
+  background-image: url("/resources/img/landscape.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+
+}
+/* #contact{
+  clear: both;
+  width: 100%;
+  float: left;
+  position: static;
+} */
+#contact .row{
+  margin-left: 10%;
+  justify-content:space-evenly;
+}
+.book{
+  background-color: #378d9e !important;
+  color: #ffffff;
+  border-radius: 0%;
+  padding: 5px;
+  margin-left: 6%;
+  width: 60%;
+}
+.form-element{
+  clear: both;
+  margin-left: 0%;
+  position: relative;
+  float: left;
+  width: 100%;
+  margin: 5px 0;
+  font-family: Merriweather !important;
+  font-weight: 300;
+  line-height: 1.8;
+  font-size: 18px !important;
+}
+.contact-info{
+  border-width: 1px;
+  border-color: #ededed;
+  border-style: solid;
+  padding: 5px;
+  border-radius: 0px;
+  margin-left: 6%;
+  width: 60%;
+  font-family: Merriweather !important;
+}
+.contact-info li{
+  list-style:circle;
+}
+  
